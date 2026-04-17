@@ -18,12 +18,12 @@
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
-      <Name>DWH.cube</Name>
-      <FullPath>DWH.cube</FullPath>
+      <Name>CubeBanHang.cube</Name>
+      <FullPath>CubeBanHang.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>DWH.partitions</Name>
-          <FullPath>DWH.partitions</FullPath>
+          <Name>CubeBanHang.partitions</Name>
+          <FullPath>CubeBanHang.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>

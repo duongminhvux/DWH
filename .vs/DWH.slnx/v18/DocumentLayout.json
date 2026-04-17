@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\MSI\\source\\repos\\DWH\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D92D2079-FEB6-E8BA-08D1-7C90873E28FD}|DWH\\DWH.dwproj|C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\DWH.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{D92D2079-FEB6-E8BA-08D1-7C90873E28FD}|DWH\\DWH.dwproj|solutionrelative:DWH\\DWH.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+      "AbsoluteMoniker": "D:0:0:{D92D2079-FEB6-E8BA-08D1-7C90873E28FD}|DWH\\DWH.dwproj|C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\CubeBanHang.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{D92D2079-FEB6-E8BA-08D1-7C90873E28FD}|DWH\\DWH.dwproj|solutionrelative:DWH\\CubeBanHang.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D92D2079-FEB6-E8BA-08D1-7C90873E28FD}|DWH\\DWH.dwproj|C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\Dim Khach Hang.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
@@ -51,11 +51,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DWH.cube [Design]",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\DWH.cube",
-              "RelativeDocumentMoniker": "DWH\\DWH.cube",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\DWH.cube [Design]",
-              "RelativeToolTip": "DWH\\DWH.cube [Design]",
+              "Title": "CubeBanHang.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\CubeBanHang.cube",
+              "RelativeDocumentMoniker": "DWH\\CubeBanHang.cube",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\CubeBanHang.cube [Design]",
+              "RelativeToolTip": "DWH\\CubeBanHang.cube [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-04-16T17:46:50.588Z",
               "EditorCaption": " [Design]"
@@ -69,7 +69,8 @@
               "ToolTip": "C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\Dim Khach Hang.dim [Design]",
               "RelativeToolTip": "DWH\\Dim Khach Hang.dim [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-04-16T17:44:34.787Z"
+              "WhenOpened": "2026-04-16T17:44:34.787Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
