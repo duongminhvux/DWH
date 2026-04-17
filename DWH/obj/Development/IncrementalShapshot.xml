@@ -19,63 +19,63 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>pRhkuLuLezhX+FHtZFKRZ65nUoI=15-Apr-26 3:18:43 PM15-Apr-26 3:18:43 PM</TimeStamp>
+        <TimeStamp>pRhkuLuLezhX+FHtZFKRZ65nUoI=18-Apr-26 2:40:01 AM18-Apr-26 3:00:47 AM</TimeStamp>
         <ID>
           <String>DWH</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>F/hogEUqF5H7MmQhcChn+onqa10=15-Apr-26 3:19:29 PM15-Apr-26 3:19:28 PM</TimeStamp>
+        <TimeStamp>F/hogEUqF5H7MmQhcChn+onqa10=18-Apr-26 2:40:01 AM18-Apr-26 3:00:47 AM</TimeStamp>
         <ID>
           <String>DWH</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>3vu+4jKaMcKRXC0vadflwVRyGwI=16-Apr-26 11:43:30 PM15-Apr-26 3:20:42 PM</TimeStamp>
+        <TimeStamp>3vu+4jKaMcKRXC0vadflwVRyGwI=18-Apr-26 2:40:01 AM18-Apr-26 3:00:47 AM</TimeStamp>
         <ID>
           <String>Dim Cua Hang</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>hS4ylOpTBphUPJjD90GLd8141WE=16-Apr-26 6:13:51 PM15-Apr-26 9:25:14 PM</TimeStamp>
+        <TimeStamp>75R6Cpf2e4IUTKqupOYsMDkEO7Y=18-Apr-26 2:48:16 AM18-Apr-26 3:00:47 AM</TimeStamp>
         <ID>
           <String>Dim Thoi Gian</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>PW+SfyVhD85aJs5eTgOqjViupes=16-Apr-26 6:00:21 PM15-Apr-26 9:26:27 PM</TimeStamp>
+        <TimeStamp>PW+SfyVhD85aJs5eTgOqjViupes=18-Apr-26 2:40:01 AM18-Apr-26 3:00:47 AM</TimeStamp>
         <ID>
           <String>Dim Mat Hang</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Z4damm/Jl4ik/LuSpOeFYJ5mMe0=15-Apr-26 11:22:27 PM15-Apr-26 9:47:22 PM</TimeStamp>
+        <TimeStamp>Z4damm/Jl4ik/LuSpOeFYJ5mMe0=18-Apr-26 2:40:01 AM18-Apr-26 3:00:47 AM</TimeStamp>
         <ID>
           <String>Dim Van Phong Dai Dien</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>3tvsobVwndIwZIrhrIvI1pxhZeQ=17-Apr-26 12:45:32 AM17-Apr-26 12:44:34 AM</TimeStamp>
+        <TimeStamp>3tvsobVwndIwZIrhrIvI1pxhZeQ=18-Apr-26 2:40:01 AM18-Apr-26 3:00:47 AM</TimeStamp>
         <ID>
           <String>Dim Khach Hang</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>NQHyHTfVfmlGVAEhKKXBWQwgV6Y=16-Apr-26 8:30:08 PM16-Apr-26 6:02:03 PMG1KMLsVQllRFD7rzTRBM21sk5x8=16-Apr-26 6:02:03 PM16-Apr-26 6:02:03 PM</TimeStamp>
+        <TimeStamp>NyN8dQFawVst8G5xarhzslwzzfg=18-Apr-26 2:49:49 AM18-Apr-26 3:00:47 AMG1KMLsVQllRFD7rzTRBM21sk5x8=18-Apr-26 2:40:01 AM18-Apr-26 3:00:47 AM</TimeStamp>
         <ID>
           <String>CubeTonKho</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>xST7vum/dvafuMll9fMvdNxMLVA=17-Apr-26 12:46:50 AM17-Apr-26 12:46:50 AMawyStp9o/PnKzEjuDcCFCxwqkDA=17-Apr-26 12:46:50 AM17-Apr-26 12:46:50 AM</TimeStamp>
+        <TimeStamp>19GRbKOS8nAlCdVjruywa/VkJjs=18-Apr-26 2:40:01 AM18-Apr-26 3:00:47 AMawyStp9o/PnKzEjuDcCFCxwqkDA=18-Apr-26 2:40:01 AM18-Apr-26 3:00:47 AM</TimeStamp>
         <ID>
           <String>DWH</String>
         </ID>
@@ -83,7 +83,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>jNPuxY42vXeTZdooD4ZFb9tJfLA=15-Apr-26 3:15:45 PM15-Apr-26 3:15:43 PM</TimeStamp>
+      <TimeStamp>jNPuxY42vXeTZdooD4ZFb9tJfLA=18-Apr-26 2:40:01 AM18-Apr-26 3:00:47 AM</TimeStamp>
       <ID>
         <String>DWH</String>
       </ID>
@@ -92,5 +92,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2026-04-16T17:47:07.163333Z</LastDeployed>
+  <LastDeployed>2026-04-17T20:01:16.073333Z</LastDeployed>
 </DeploymentSnapshot>

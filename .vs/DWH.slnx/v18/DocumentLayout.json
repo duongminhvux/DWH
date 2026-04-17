@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\MSI\\source\\repos\\DWH\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D92D2079-FEB6-E8BA-08D1-7C90873E28FD}|DWH\\DWH.dwproj|C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\CubeTonKho.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{D92D2079-FEB6-E8BA-08D1-7C90873E28FD}|DWH\\DWH.dwproj|solutionrelative:DWH\\CubeTonKho.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D92D2079-FEB6-E8BA-08D1-7C90873E28FD}|DWH\\DWH.dwproj|C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\CubeBanHang.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
       "RelativeMoniker": "D:0:0:{D92D2079-FEB6-E8BA-08D1-7C90873E28FD}|DWH\\DWH.dwproj|solutionrelative:DWH\\CubeBanHang.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92D2079-FEB6-E8BA-08D1-7C90873E28FD}|DWH\\DWH.dwproj|C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\Dim Thoi Gian.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{D92D2079-FEB6-E8BA-08D1-7C90873E28FD}|DWH\\DWH.dwproj|solutionrelative:DWH\\Dim Thoi Gian.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D92D2079-FEB6-E8BA-08D1-7C90873E28FD}|DWH\\DWH.dwproj|C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\Dim Khach Hang.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
@@ -21,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D92D2079-FEB6-E8BA-08D1-7C90873E28FD}|DWH\\DWH.dwproj|C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\Dim Mat Hang.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
       "RelativeMoniker": "D:0:0:{D92D2079-FEB6-E8BA-08D1-7C90873E28FD}|DWH\\DWH.dwproj|solutionrelative:DWH\\Dim Mat Hang.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D92D2079-FEB6-E8BA-08D1-7C90873E28FD}|DWH\\DWH.dwproj|C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\Dim Thoi Gian.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{D92D2079-FEB6-E8BA-08D1-7C90873E28FD}|DWH\\DWH.dwproj|solutionrelative:DWH\\Dim Thoi Gian.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D92D2079-FEB6-E8BA-08D1-7C90873E28FD}|DWH\\DWH.dwproj|C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\CubeTonKho.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{D92D2079-FEB6-E8BA-08D1-7C90873E28FD}|DWH\\DWH.dwproj|solutionrelative:DWH\\CubeTonKho.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,8 +49,12 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CubeBanHang.cube [Design]",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\CubeBanHang.cube",
               "RelativeDocumentMoniker": "DWH\\CubeBanHang.cube",
@@ -62,19 +66,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Dim Khach Hang.dim [Design]",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\Dim Khach Hang.dim",
               "RelativeDocumentMoniker": "DWH\\Dim Khach Hang.dim",
               "ToolTip": "C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\Dim Khach Hang.dim [Design]",
               "RelativeToolTip": "DWH\\Dim Khach Hang.dim [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-04-16T17:44:34.787Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-16T17:44:34.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Dim Cua Hang.dim [Design]",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\Dim Cua Hang.dim",
               "RelativeDocumentMoniker": "DWH\\Dim Cua Hang.dim",
@@ -85,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Dim Van Phong Dai Dien.dim [Design]",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\Dim Van Phong Dai Dien.dim",
               "RelativeDocumentMoniker": "DWH\\Dim Van Phong Dai Dien.dim",
@@ -96,18 +99,17 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Dim Thoi Gian.dim [Design]",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\Dim Thoi Gian.dim",
               "RelativeDocumentMoniker": "DWH\\Dim Thoi Gian.dim",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\Dim Thoi Gian.dim [Design]",
-              "RelativeToolTip": "DWH\\Dim Thoi Gian.dim [Design]",
+              "ToolTip": "D:\\Code\\test\\DWH\\DWH-clone\\DWH\\DWH\\Dim Thoi Gian.dim [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-04-15T14:25:14.284Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Dim Mat Hang.dim [Design]",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\Dim Mat Hang.dim",
               "RelativeDocumentMoniker": "DWH\\Dim Mat Hang.dim",
@@ -118,14 +120,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "CubeTonKho.cube [Design]",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\CubeTonKho.cube",
               "RelativeDocumentMoniker": "DWH\\CubeTonKho.cube",
               "ToolTip": "C:\\Users\\MSI\\source\\repos\\DWH\\DWH\\CubeTonKho.cube [Design]",
               "RelativeToolTip": "DWH\\CubeTonKho.cube [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-04-16T17:15:47.565Z"
+              "WhenOpened": "2026-04-16T17:15:47.565Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
