@@ -160,6 +160,7 @@
           <ID>Ma Cua Hang</ID>
           <Name>Ma Cua Hang</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>450</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -232,6 +233,7 @@
         <Attribute>
           <ID>Ten Thanh Pho</ID>
           <Name>Ten Thanh Pho</Name>
+          <EstimatedCount>130</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -280,6 +282,7 @@
         <Attribute>
           <ID>Bang</ID>
           <Name>Bang</Name>
+          <EstimatedCount>47</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -438,6 +441,7 @@
           <ID>Ma Thoi Gian</ID>
           <Name>Ma Thoi Gian</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>48</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -462,6 +466,7 @@
           <ID>Thang</ID>
           <Name>Thang</Name>
           <Type>Months</Type>
+          <EstimatedCount>48</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>SmallInt</DataType>
@@ -499,6 +504,7 @@
           <ID>Quy</ID>
           <Name>Quy</Name>
           <Type>Quarters</Type>
+          <EstimatedCount>16</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>SmallInt</DataType>
@@ -536,6 +542,7 @@
           <ID>Nam</ID>
           <Name>Nam</Name>
           <Type>Years</Type>
+          <EstimatedCount>4</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>SmallInt</DataType>
@@ -683,6 +690,7 @@
           <ID>Ma Mat Hang</ID>
           <Name>Ma Mat Hang</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>12000</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -1153,6 +1161,7 @@
           <ID>Ma Khach Hang</ID>
           <Name>Ma Khach Hang</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>40000</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -1180,6 +1189,7 @@
         <Attribute>
           <ID>Ten Khach Hang</ID>
           <Name>Ten Khach Hang</Name>
+          <EstimatedCount>40000</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -1228,6 +1238,7 @@
         <Attribute>
           <ID>Ma Thanh Pho</ID>
           <Name>Ma Thanh Pho</Name>
+          <EstimatedCount>130</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -1620,6 +1631,7 @@
             </Measure>
           </Measures>
           <StorageMode>Molap</StorageMode>
+          <EstimatedRows>192000</EstimatedRows>
           <ProcessingMode>Regular</ProcessingMode>
           <Dimensions>
             <Dimension xsi:type="RegularMeasureGroupDimension">
@@ -1695,8 +1707,161 @@
               <StorageMode>Molap</StorageMode>
               <CurrentStorageMode>Molap</CurrentStorageMode>
               <ProcessingMode>Regular</ProcessingMode>
+              <EstimatedRows>192000</EstimatedRows>
+              <AggregationDesignID>AggregationDesign</AggregationDesignID>
             </Partition>
           </Partitions>
+          <AggregationDesigns>
+            <AggregationDesign>
+              <ID>AggregationDesign</ID>
+              <Name>AggregationDesign</Name>
+              <CreatedTimestamp>2026-04-17T20:03:59.906667Z</CreatedTimestamp>
+              <LastSchemaUpdate>2026-04-17T20:03:59.906667Z</LastSchemaUpdate>
+              <EstimatedRows>192000</EstimatedRows>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Dim Mat Hang</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Ma Mat Hang</AttributeID>
+                      <EstimatedCount>12000</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Mo Ta</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Trong Luong</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Kich Co</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Gia</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Thoi Gian</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Ma Thoi Gian</AttributeID>
+                      <EstimatedCount>48</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Thang</AttributeID>
+                      <EstimatedCount>48</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Quy</AttributeID>
+                      <EstimatedCount>16</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Nam</AttributeID>
+                      <EstimatedCount>4</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Cua Hang</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Ma Cua Hang</AttributeID>
+                      <EstimatedCount>450</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>So Dien Thoai</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Ma Thanh Pho</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Ten Thanh Pho</AttributeID>
+                      <EstimatedCount>130</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Dia Chi Van Phong</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Bang</AttributeID>
+                      <EstimatedCount>47</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+              <Aggregations>
+                <Aggregation>
+                  <ID>Aggregation 0</ID>
+                  <Name>Aggregation 0</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Dim Mat Hang</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Thoi Gian</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Ma Thoi Gian</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Cua Hang</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 1</ID>
+                  <Name>Aggregation 1</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Dim Mat Hang</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Thoi Gian</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Nam</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Cua Hang</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Ma Cua Hang</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 2</ID>
+                  <Name>Aggregation 2</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Dim Mat Hang</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Thoi Gian</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Quy</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Cua Hang</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Bang</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+              </Aggregations>
+            </AggregationDesign>
+          </AggregationDesigns>
         </MeasureGroup>
       </MeasureGroups>
       <Source>
@@ -2005,6 +2170,7 @@
             </Measure>
           </Measures>
           <StorageMode>Molap</StorageMode>
+          <EstimatedRows>299814</EstimatedRows>
           <ProcessingMode>Regular</ProcessingMode>
           <Dimensions>
             <Dimension xsi:type="RegularMeasureGroupDimension">
@@ -2080,8 +2246,139 @@
               <StorageMode>Molap</StorageMode>
               <CurrentStorageMode>Molap</CurrentStorageMode>
               <ProcessingMode>Regular</ProcessingMode>
+              <EstimatedRows>299814</EstimatedRows>
+              <AggregationDesignID>AggregationDesign</AggregationDesignID>
             </Partition>
           </Partitions>
+          <AggregationDesigns>
+            <AggregationDesign>
+              <ID>AggregationDesign</ID>
+              <Name>AggregationDesign</Name>
+              <CreatedTimestamp>2026-04-17T20:04:30.943333Z</CreatedTimestamp>
+              <LastSchemaUpdate>2026-04-17T20:04:30.943333Z</LastSchemaUpdate>
+              <EstimatedRows>299814</EstimatedRows>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Dim Khach Hang</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Ma Khach Hang</AttributeID>
+                      <EstimatedCount>40000</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Ten Khach Hang</AttributeID>
+                      <EstimatedCount>40000</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Ngay Dat Hang Dau Tien</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Ma Thanh Pho</AttributeID>
+                      <EstimatedCount>130</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Ten Thanh Pho</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Dia Chi Van Phong</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Bang</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Thoi Gian</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Ma Thoi Gian</AttributeID>
+                      <EstimatedCount>48</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Thang</AttributeID>
+                      <EstimatedCount>48</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Quy</AttributeID>
+                      <EstimatedCount>16</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Nam</AttributeID>
+                      <EstimatedCount>4</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Mat Hang</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Ma Mat Hang</AttributeID>
+                      <EstimatedCount>12000</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Mo Ta</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Trong Luong</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Kich Co</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Gia</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+              <Aggregations>
+                <Aggregation>
+                  <ID>Aggregation 0</ID>
+                  <Name>Aggregation 0</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Dim Khach Hang</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Thoi Gian</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Ma Thoi Gian</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Mat Hang</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 1</ID>
+                  <Name>Aggregation 1</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Dim Khach Hang</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Ma Thanh Pho</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Thoi Gian</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Quy</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Dim Mat Hang</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+              </Aggregations>
+            </AggregationDesign>
+          </AggregationDesigns>
         </MeasureGroup>
       </MeasureGroups>
       <Source>

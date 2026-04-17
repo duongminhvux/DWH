@@ -33,21 +33,21 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>3vu+4jKaMcKRXC0vadflwVRyGwI=18-Apr-26 2:40:01 AM18-Apr-26 3:00:47 AM</TimeStamp>
+        <TimeStamp>pq2/9oAD3BkjK6tPZAQkytOdy1c=18-Apr-26 3:04:53 AM18-Apr-26 3:00:47 AM</TimeStamp>
         <ID>
           <String>Dim Cua Hang</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>75R6Cpf2e4IUTKqupOYsMDkEO7Y=18-Apr-26 2:48:16 AM18-Apr-26 3:00:47 AM</TimeStamp>
+        <TimeStamp>pNBIVnzhHmPL58ZgXo87mL9kBSE=18-Apr-26 3:04:53 AM18-Apr-26 3:00:47 AM</TimeStamp>
         <ID>
           <String>Dim Thoi Gian</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>PW+SfyVhD85aJs5eTgOqjViupes=18-Apr-26 2:40:01 AM18-Apr-26 3:00:47 AM</TimeStamp>
+        <TimeStamp>IMBT6thjjqrxRcCM7NkH05j3YzI=18-Apr-26 3:04:53 AM18-Apr-26 3:00:47 AM</TimeStamp>
         <ID>
           <String>Dim Mat Hang</String>
         </ID>
@@ -61,21 +61,21 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>3tvsobVwndIwZIrhrIvI1pxhZeQ=18-Apr-26 2:40:01 AM18-Apr-26 3:00:47 AM</TimeStamp>
+        <TimeStamp>dEduxS4zF5Bg8VGUFY9QkDYuOzg=18-Apr-26 3:04:53 AM18-Apr-26 3:00:47 AM</TimeStamp>
         <ID>
           <String>Dim Khach Hang</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>NyN8dQFawVst8G5xarhzslwzzfg=18-Apr-26 2:49:49 AM18-Apr-26 3:00:47 AMG1KMLsVQllRFD7rzTRBM21sk5x8=18-Apr-26 2:40:01 AM18-Apr-26 3:00:47 AM</TimeStamp>
+        <TimeStamp>jZqDBXsJRbq1mYT1SIJekxPuTY0=18-Apr-26 3:04:53 AM18-Apr-26 3:00:47 AMH4B/vseJ1laaYpN2yFeRqBUfqUA=18-Apr-26 3:04:53 AM18-Apr-26 3:00:47 AM</TimeStamp>
         <ID>
           <String>CubeTonKho</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>19GRbKOS8nAlCdVjruywa/VkJjs=18-Apr-26 2:40:01 AM18-Apr-26 3:00:47 AMawyStp9o/PnKzEjuDcCFCxwqkDA=18-Apr-26 2:40:01 AM18-Apr-26 3:00:47 AM</TimeStamp>
+        <TimeStamp>E7w9BvK6s0hjd+XtWNW/6qlAohY=18-Apr-26 3:04:53 AM18-Apr-26 3:00:47 AMqnZCGEKedpiLaNbs2taNyRGif70=18-Apr-26 3:04:52 AM18-Apr-26 3:00:47 AM</TimeStamp>
         <ID>
           <String>DWH</String>
         </ID>
@@ -92,5 +92,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2026-04-17T20:01:16.073333Z</LastDeployed>
+  <LastDeployed>2026-04-17T20:04:54.533333Z</LastDeployed>
 </DeploymentSnapshot>

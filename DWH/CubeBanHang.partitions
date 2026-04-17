@@ -1,25 +1,156 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e2dc127b-efc5-470f-96fa-3b5c10248c05" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>DWH</ID>
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d7af87c5-d39d-4661-9f89-dce54b9443b1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CubeBanHang</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Fact Ban Hang</ID>
       <Partitions>
-        <Partition dwd:design-time-name="b6813126-8f3b-4403-af7a-32446f63951e">
+        <Partition dwd:design-time-name="ed43390a-229a-49db-9d92-a7400ab7a3c0">
           <ID>Fact Ban Hang</ID>
           <Name>Fact Ban Hang</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="feee111a-988b-4e9a-b09b-a4adde0ea02e">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4e702ea1-6c4a-4207-88a3-4cc344447d06">
             <DataSourceViewID>DWH</DataSourceViewID>
             <TableID>dbo_FactBanHang</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>299814</EstimatedRows>
+          <AggregationDesignID>AggregationDesign</AggregationDesignID>
         </Partition>
       </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign</ID>
+          <Name>AggregationDesign</Name>
+          <CreatedTimestamp>2026-04-17T20:04:30.943333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2026-04-17T20:04:30.943333Z</LastSchemaUpdate>
+          <EstimatedRows>299814</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>Dim Khach Hang</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Ma Khach Hang</AttributeID>
+                  <EstimatedCount>40000</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Ten Khach Hang</AttributeID>
+                  <EstimatedCount>40000</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Ngay Dat Hang Dau Tien</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Ma Thanh Pho</AttributeID>
+                  <EstimatedCount>130</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Ten Thanh Pho</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Dia Chi Van Phong</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Bang</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Thoi Gian</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Ma Thoi Gian</AttributeID>
+                  <EstimatedCount>48</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Thang</AttributeID>
+                  <EstimatedCount>48</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Quy</AttributeID>
+                  <EstimatedCount>16</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Nam</AttributeID>
+                  <EstimatedCount>4</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Mat Hang</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Ma Mat Hang</AttributeID>
+                  <EstimatedCount>12000</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Mo Ta</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Trong Luong</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Kich Co</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Gia</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Dim Khach Hang</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Thoi Gian</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Ma Thoi Gian</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Mat Hang</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 1</ID>
+              <Name>Aggregation 1</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Dim Khach Hang</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Ma Thanh Pho</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Thoi Gian</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Quy</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Mat Hang</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
     </MeasureGroup>
   </MeasureGroups>
 </Cube>
