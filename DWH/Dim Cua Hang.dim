@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a8e87ced-d4d3-4d69-9257-42f19a13373a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="61cb4efb-58b9-4aa1-ad16-7d8bcbc78fab" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Cua Hang</ID>
   <Name>Dim Cua Hang</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-532" scrolltop="-2775" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="150" x="7911" y="13785" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-532" scrolltop="-2775" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="150" x="8784" y="21828" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -132,41 +132,41 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="486774de-ec45-4e68-a171-b6f9bae0a572">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a451942e-2b46-423e-8e81-0b8096395906">
     <DataSourceViewID>DWH</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="5f35d7b9-845e-465c-8da0-79a799a94d94">
+  <ErrorConfiguration dwd:design-time-name="151ef0e0-3196-40ed-b948-68777dfa7f0d">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="98801dc7-e141-43a5-969a-03e80f08b92c">
+    <Attribute dwd:design-time-name="723f8f2b-f67f-42ed-9741-9d75dd2281b3">
       <ID>Ma Cua Hang</ID>
       <Name>Ma Cua Hang</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d7f984fb-6646-495a-bc87-02e5e467c831">
+        <KeyColumn dwd:design-time-name="be1f6736-cc20-46f5-8484-f53bfab1a5a6">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a1b27eba-9ffb-43cd-b2d8-59268ee4a30a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b5342478-547a-4b91-8259-14426c335122">
             <TableID>dbo_Dim_CuaHang</TableID>
             <ColumnID>MaCuaHang</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="5947f408-b126-49ff-853f-c246944d9ea0">
+        <AttributeRelationship dwd:design-time-name="39eb6458-ba90-4e53-a05f-4f8d356a0930">
           <AttributeID>So Dien Thoai</AttributeID>
           <Name>So Dien Thoai</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="37ba92ee-2a00-4b6d-aad3-41b610b2ce74">
+        <AttributeRelationship dwd:design-time-name="941b17f2-06ae-45f2-8d7d-4d6e79bfa350">
           <AttributeID>Ten Thanh Pho</AttributeID>
           <Name>Ten Thanh Pho</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d04bd9a9-7c86-4b4f-b253-0edc476d7506">
+        <AttributeRelationship dwd:design-time-name="3b398881-74b2-441b-b758-c1ba3f23f5cf">
           <AttributeID>Ma Thanh Pho</AttributeID>
           <Name>Ma Thanh Pho</Name>
         </AttributeRelationship>
@@ -175,14 +175,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="b8c04962-4e30-441d-be9b-d94f4c3f5792">
+    <Attribute dwd:design-time-name="7a251ac7-f7b2-406a-8d85-efd8ecf985ae">
       <ID>So Dien Thoai</ID>
       <Name>So Dien Thoai</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="6db208df-57e9-430f-9b1a-50fd59ca5fc8">
+        <KeyColumn dwd:design-time-name="027efe85-21db-41c7-b8df-3a27cf799e01">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3c4b6d5d-c80b-424d-9358-c0982fee3094">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="46844bb1-0708-488d-8eda-0b2131bb7163">
             <TableID>dbo_Dim_CuaHang</TableID>
             <ColumnID>SoDienThoai</ColumnID>
           </Source>
@@ -192,22 +192,22 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e44edc6a-3b73-4e6e-aae8-d136c3580a5b">
+    <Attribute dwd:design-time-name="9ba8429f-3364-4083-9cd1-27aa1bdb5e5b">
       <ID>Ma Thanh Pho</ID>
       <Name>Ma Thanh Pho</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4b52f0b1-9be9-4ff9-8d38-35b2ffc870ec">
+        <KeyColumn dwd:design-time-name="b9e16e94-5345-409f-835f-99c0febf90cc">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="df81265f-f4b7-446d-8751-655bc02724f8">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="32d6addb-770e-4d4a-becb-8fef2f667685">
             <TableID>dbo_DimVanPhongDaiDien</TableID>
             <ColumnID>MaThanhPho</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="d03e7bb8-d004-440f-859a-bfb3846b470c">
+        <AttributeRelationship dwd:design-time-name="484fcfb9-1b9e-4a80-8592-f00583f2a0c5">
           <AttributeID>Dia Chi Van Phong</AttributeID>
           <Name>Dia Chi Van Phong</Name>
         </AttributeRelationship>
@@ -216,29 +216,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="76c458a1-11b4-422d-a436-e4997df75fe1">
+    <Attribute dwd:design-time-name="91e865bb-06a2-4c64-a86a-e34819d92ac6">
       <ID>Ten Thanh Pho</ID>
       <Name>Ten Thanh Pho</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="8c200b05-1121-47c9-89ac-d72decf9536e">
+        <KeyColumn dwd:design-time-name="b01b7341-08ed-4c83-b384-159cbb871adc">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d1f99714-b3bc-434d-9e8e-927aa160cb16">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5e041340-1f30-4d7f-99d7-a5d6d183e22e">
             <TableID>dbo_DimVanPhongDaiDien</TableID>
             <ColumnID>MaThanhPho</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="45d7743a-d0e9-4c05-b826-4b78d0fd99c1">
+      <NameColumn dwd:design-time-name="1d1922c2-23da-403a-8b99-ddc0531c1bf9">
         <DataType>WChar</DataType>
         <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="ee26cb6b-05af-4401-b745-ebd12903ac2f">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="b54cd61d-a2f6-4050-81e0-b940d331cd5e">
           <TableID>dbo_DimVanPhongDaiDien</TableID>
           <ColumnID>TenThanhPho</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="4e77c789-fe50-450b-aeb9-602ccafa7402">
+        <AttributeRelationship dwd:design-time-name="25c32478-9ddb-49a0-953c-e4f86574f686">
           <AttributeID>Bang</AttributeID>
           <Name>Bang</Name>
         </AttributeRelationship>
@@ -247,14 +247,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="9235a4ff-a204-46b9-98b1-4f2cf6cfa6b3">
+    <Attribute dwd:design-time-name="c65cc0a3-271b-48ff-93ee-13c8bbbbdf8c">
       <ID>Dia Chi Van Phong</ID>
       <Name>Dia Chi Van Phong</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="45d96ec3-e3fa-4b3a-8de7-0e0a3d645e4f">
+        <KeyColumn dwd:design-time-name="c3eda693-976d-4c6a-a18f-00e665b91b44">
           <DataType>WChar</DataType>
           <DataSize>200</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="809cb84b-cf73-4333-bfd9-2e6707c6a404">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c725aa1a-ac72-4551-b5d2-96942baee8bc">
             <TableID>dbo_DimVanPhongDaiDien</TableID>
             <ColumnID>DiaChiVanPhong</ColumnID>
           </Source>
@@ -264,14 +264,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="a6fc4ff4-a043-4eaa-9324-b4e34a8450a4">
+    <Attribute dwd:design-time-name="fb4fb966-5315-45ae-a157-58cd28b53129">
       <ID>Bang</ID>
       <Name>Bang</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c8d24df3-2072-44e2-a70c-7085014e4fd5">
+        <KeyColumn dwd:design-time-name="dfc5fa45-0dad-4d5d-8d8b-797889371be1">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="fe135279-934e-403e-b33c-427a2a6551e9">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c7ed2fb2-11f1-4f8d-a0be-c13797b54d39">
             <TableID>dbo_DimVanPhongDaiDien</TableID>
             <ColumnID>Bang</ColumnID>
           </Source>
@@ -283,21 +283,21 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="ee7133d0-f54c-46ca-a0d9-1ebd1a26b895">
+    <Hierarchy dwd:design-time-name="8c77661e-1a3e-439d-a149-aeb53877a8c7">
       <ID>Hierarchy</ID>
       <Name>H_DiaLyCuaHang</Name>
       <Levels>
-        <Level dwd:design-time-name="88f6647f-4333-476f-94ac-6fe0b3dd4587">
+        <Level dwd:design-time-name="8d442b6b-b40c-4eee-aa32-cae2c28b801d">
           <ID>Bang</ID>
           <Name>Bang</Name>
           <SourceAttributeID>Bang</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="57b5eca5-444f-4376-8908-43cd884aa3a7">
+        <Level dwd:design-time-name="1ed5a9c4-0193-4cbe-9412-5797a28849bc">
           <ID>Ten Thanh Pho</ID>
           <Name>Ten Thanh Pho</Name>
           <SourceAttributeID>Ten Thanh Pho</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="1df5884e-dd39-44cd-8b7f-f7d739b91cb8">
+        <Level dwd:design-time-name="10d92d31-13e9-414c-bb68-6bac9e982a93">
           <ID>Ma Cua Hang</ID>
           <Name>Ma Cua Hang</Name>
           <SourceAttributeID>Ma Cua Hang</SourceAttributeID>

@@ -29,19 +29,6 @@
     </Dimensions>
     <Cubes>
       <Cube>
-        <ID>CubeBanHang</ID>
-        <MeasureGroups>
-          <MeasureGroup>
-            <ID>Fact Ban Hang</ID>
-            <Partitions>
-              <Partition>
-                <ID>Fact Ban Hang</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-        </MeasureGroups>
-      </Cube>
-      <Cube>
         <ID>CubeTonKho</ID>
         <MeasureGroups>
           <MeasureGroup>
@@ -49,6 +36,19 @@
             <Partitions>
               <Partition>
                 <ID>Fact Kho</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>DWH</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Ban Hang</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Ban Hang</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

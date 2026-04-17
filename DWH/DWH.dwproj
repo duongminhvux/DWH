@@ -8,22 +8,22 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>CubeBanHang.cube</Name>
-      <FullPath>CubeBanHang.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>CubeBanHang.partitions</Name>
-          <FullPath>CubeBanHang.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-    <ProjectItem>
       <Name>CubeTonKho.cube</Name>
       <FullPath>CubeTonKho.cube</FullPath>
       <Dependencies>
         <ProjectItem>
           <Name>CubeTonKho.partitions</Name>
           <FullPath>CubeTonKho.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DWH.cube</Name>
+      <FullPath>DWH.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>DWH.partitions</Name>
+          <FullPath>DWH.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>

@@ -33,7 +33,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>BsLe+Qx2RYi9JaRHs74suMimtcI=15-Apr-26 11:22:27 PM15-Apr-26 3:20:42 PM</TimeStamp>
+        <TimeStamp>3vu+4jKaMcKRXC0vadflwVRyGwI=16-Apr-26 11:43:30 PM15-Apr-26 3:20:42 PM</TimeStamp>
         <ID>
           <String>Dim Cua Hang</String>
         </ID>
@@ -61,23 +61,23 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>YXqTq3V/PvJ8wBs+DVsbhYwxpRQ=16-Apr-26 6:11:48 PM16-Apr-26 5:52:46 PM</TimeStamp>
+        <TimeStamp>3tvsobVwndIwZIrhrIvI1pxhZeQ=17-Apr-26 12:45:32 AM17-Apr-26 12:44:34 AM</TimeStamp>
         <ID>
           <String>Dim Khach Hang</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>FJMSSgYpUWB5FAfNdXS0VniSTs8=16-Apr-26 6:01:28 PM16-Apr-26 6:01:28 PMNtih4Ux9y6yj98/feOmEbjH3jL0=16-Apr-26 6:01:28 PM16-Apr-26 6:01:28 PM</TimeStamp>
+        <TimeStamp>NQHyHTfVfmlGVAEhKKXBWQwgV6Y=16-Apr-26 8:30:08 PM16-Apr-26 6:02:03 PMG1KMLsVQllRFD7rzTRBM21sk5x8=16-Apr-26 6:02:03 PM16-Apr-26 6:02:03 PM</TimeStamp>
         <ID>
-          <String>CubeBanHang</String>
+          <String>CubeTonKho</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>NQHyHTfVfmlGVAEhKKXBWQwgV6Y=16-Apr-26 6:02:03 PM16-Apr-26 6:02:03 PMG1KMLsVQllRFD7rzTRBM21sk5x8=16-Apr-26 6:02:03 PM16-Apr-26 6:02:03 PM</TimeStamp>
+        <TimeStamp>xST7vum/dvafuMll9fMvdNxMLVA=17-Apr-26 12:46:50 AM17-Apr-26 12:46:50 AMawyStp9o/PnKzEjuDcCFCxwqkDA=17-Apr-26 12:46:50 AM17-Apr-26 12:46:50 AM</TimeStamp>
         <ID>
-          <String>CubeTonKho</String>
+          <String>DWH</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
@@ -92,5 +92,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2026-04-16T11:13:52.82Z</LastDeployed>
+  <LastDeployed>2026-04-16T17:47:07.163333Z</LastDeployed>
 </DeploymentSnapshot>
